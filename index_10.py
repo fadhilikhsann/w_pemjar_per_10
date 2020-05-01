@@ -12,7 +12,7 @@ def init():
         pilihan=int(input("Masukkan pilihan: "))
         print()
         if (pilihan==1):
-            iface=str(input("Masukkan interface: "))
+            ifname=str(input("Masukkan interface: "))
             print ("Interface [%s] is: %s" %(ifname, list_3_6.get_interface_status(ifname)))      
         elif (pilihan==2):
             print ("Proses IPC socket pair akan muncul")
